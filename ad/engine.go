@@ -1,7 +1,6 @@
 package ad
 
 import (
-	"amazon-sdk/common"
 	"errors"
 	"fmt"
 	"io"
