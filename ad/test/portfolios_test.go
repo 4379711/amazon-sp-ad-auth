@@ -8,7 +8,7 @@ import (
 
 func TestPortfolios(t *testing.T) {
 	engine := ad.NewEngine()
-	resp, err := engine.SignRequest("GET", "/v2/portfolios", nil)
+	resp, err := engine.CallApi("GET", "/v2/portfolios", nil)
 	if err != nil {
 		fmt.Println(err)
 		return
